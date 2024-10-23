@@ -1,6 +1,9 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+**Warning**: If you want to use middleware, don't use reflect-metadata package. It will cause an error. 
+Because NextJS middleware work with edge runtime, and reflect-metadata package is not supported in edge runtime.
+
 ## Getting Started
 
 First, run the development server:

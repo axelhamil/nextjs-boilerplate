@@ -14,6 +14,7 @@
     "emitDecoratorMetadata": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["reflect-metadata"],
     "plugins": [
       {
         "name": "next"
